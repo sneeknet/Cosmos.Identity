@@ -16,7 +16,7 @@ namespace Mobsites.Cosmos.Identity
         /// <summary>
         ///     Returns a queryable linq expression of the specified <typeparamref name="TIdentity" />.
         /// </summary>
-        IOrderedQueryable<TIdentity> Queryable<TIdentity>()
+        IQueryable<TIdentity> Queryable<TIdentity>()
             where TIdentity : ICosmosStorageType, new();
 
 

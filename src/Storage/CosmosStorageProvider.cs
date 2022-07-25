@@ -65,7 +65,7 @@ namespace Mobsites.Cosmos.Identity
         /// <summary>
         ///     Returns a queryable linq expression of the specified <typeparamref name="TCosmosStorageType" />.
         /// </summary>
-        public IOrderedQueryable<TCosmosStorageType> Queryable<TCosmosStorageType>()
+        public IQueryable<TCosmosStorageType> Queryable<TCosmosStorageType>()
             where TCosmosStorageType : ICosmosStorageType, new()
         {
             var partitionKey = new TCosmosStorageType().PartitionKey;

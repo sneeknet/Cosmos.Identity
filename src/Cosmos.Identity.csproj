@@ -13,20 +13,20 @@
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageIcon>mobsites-logo.png</PackageIcon>
     <PackageReleaseNotes>Changed package name (originally called Mobsites.AspNetCore.Identity.Cosmos). Updated dependencies.</PackageReleaseNotes>
-    <PackageVersion>4.0.0</PackageVersion>
+    <PackageVersion>5.0.1</PackageVersion>
     <PackageTags>identity;membership;storage provider;azure;cosmos;cosmosdb;documentdb;nosql;netstandard;dotnetcore;netcore;aspnetcore</PackageTags>
     <PackageProjectUrl>https://www.mobsites.com</PackageProjectUrl>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/Mobsites/Cosmos.Identity</RepositoryUrl>
+    <RepositoryUrl>https://github.com/sneeknet/Cosmos.Identity</RepositoryUrl>
     <RootNamespace>Mobsites.Cosmos.Identity</RootNamespace>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Azure.Cosmos" Version="3.9.1" />
+    <PackageReference Include="Microsoft.Azure.Cosmos" Version="3.29.0" />
     <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
-    <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="3.1.5" />
-    <PackageReference Include="System.Text.Json" Version="4.7.2" />
+    <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="6.0.7" />
+    <PackageReference Include="System.Text.Json" Version="6.0.5" />
   </ItemGroup>
 
   <ItemGroup>
